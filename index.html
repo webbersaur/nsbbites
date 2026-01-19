@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NSB Bites - Your guide to the best restaurants in New Smyrna Beach, Florida. Discover local dining and shop exclusive merchandise.">
+    <title>NSB Bites - New Smyrna Beach Dining Guide & Merchandise</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Snipcart (Test Mode) -->
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo/logo-web.png" alt="NSB Bites" class="logo-img">
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="dining-guide.html">Dining Guide</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <button class="cart-btn snipcart-checkout">
+                    <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    <span class="cart-count snipcart-items-count">0</span>
+                </button>
+            </nav>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="images/logo/home-shark.png" alt="NSB Bites - Shark Capital" class="hero-logo-img">
+                </div>
+                <span class="shark-capital">Shark Capital of the US</span>
+                <h1>Discover New Smyrna Beach</h1>
+                <p class="tagline">Your ultimate guide to local restaurants, hidden gems, and beachside dining</p>
+                <div class="hero-buttons">
+                    <a href="dining-guide.html" class="btn btn-primary">Explore Restaurants</a>
+                    <a href="shop.html" class="btn btn-outline" style="border-color: white; color: white;">Shop Merch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Restaurants -->
+    <section class="section featured-restaurants">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Restaurants</h2>
+                <p>Discover the best dining spots in New Smyrna Beach</p>
+            </div>
+
+            <div class="restaurant-grid" id="featured-restaurants-grid">
+                <!-- Restaurants loaded via JavaScript -->
+            </div>
+
+            <div class="view-all">
+                <a href="dining-guide.html" class="btn btn-secondary">View All Restaurants</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merchandise Preview -->
+    <section class="section merch-preview">
+        <div class="container">
+            <div class="section-title">
+                <h2>Shop NSB Bites</h2>
+                <p>Rep your favorite beach town with our exclusive gear</p>
+            </div>
+
+            <div class="merch-preview-grid">
+                <div class="merch-preview-item">
+                    <div style="height: 150px; display: flex; align-items: center; justify-content: center;">
+                        <svg viewBox="0 0 100 100" width="120" height="120">
+                            <rect x="25" y="20" width="50" height="60" rx="5" fill="#222"/>
+                            <rect x="15" y="20" width="15" height="25" fill="#222"/>
+                            <rect x="70" y="20" width="15" height="25" fill="#222"/>
+                            <text x="50" y="55" text-anchor="middle" fill="#F47B20" font-size="10" font-weight="bold">NSB</text>
+                            <text x="50" y="68" text-anchor="middle" fill="#fff" font-size="8">BITES</text>
+                        </svg>
+                    </div>
+                    <h4>Classic Logo Tee</h4>
+                    <span class="price">$28</span>
+                </div>
+                <div class="merch-preview-item">
+                    <div style="height: 150px; display: flex; align-items: center; justify-content: center;">
+                        <svg viewBox="0 0 100 100" width="120" height="120">
+                            <path d="M25 30 L50 15 L75 30 L75 85 L25 85 Z" fill="#333"/>
+                            <path d="M15 30 L25 30 L25 55 L15 45 Z" fill="#333"/>
+                            <path d="M85 30 L75 30 L75 55 L85 45 Z" fill="#333"/>
+                            <rect x="35" y="75" width="10" height="10" fill="#444"/>
+                            <rect x="55" y="75" width="10" height="10" fill="#444"/>
+                            <text x="50" y="55" text-anchor="middle" fill="#F47B20" font-size="10" font-weight="bold">NSB</text>
+                            <text x="50" y="68" text-anchor="middle" fill="#fff" font-size="8">BITES</text>
+                        </svg>
+                    </div>
+                    <h4>Shark Bites Hoodie</h4>
+                    <span class="price">$45</span>
+                </div>
+                <div class="merch-preview-item">
+                    <div style="height: 150px; display: flex; align-items: center; justify-content: center;">
+                        <svg viewBox="0 0 100 100" width="120" height="120">
+                            <ellipse cx="50" cy="70" rx="35" ry="15" fill="#1a3a5c"/>
+                            <path d="M15 70 Q15 40 50 35 Q85 40 85 70" fill="#1a3a5c"/>
+                            <rect x="20" y="55" width="60" height="15" fill="#1a3a5c"/>
+                            <text x="50" y="68" text-anchor="middle" fill="#F47B20" font-size="12" font-weight="bold">NSB</text>
+                        </svg>
+                    </div>
+                    <h4>Logo Dad Hat</h4>
+                    <span class="price">$25</span>
+                </div>
+            </div>
+
+            <div class="merch-cta">
+                <a href="shop.html" class="btn btn-primary">Shop All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NSB Bites</h4>
+                    <p>Your guide to the best eats in New Smyrna Beach, Florida - the Shark Capital of the US.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <a href="dining-guide.html">Dining Guide</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About Us</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <a href="dining-guide.html?cuisine=seafood">Seafood</a>
+                    <a href="dining-guide.html?cuisine=american">American</a>
+                    <a href="dining-guide.html?cuisine=mexican">Mexican</a>
+                    <a href="dining-guide.html?cuisine=italian">Italian</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>New Smyrna Beach, FL</p>
+                    <a href="mailto:hello@nsbbites.com">hello@nsbbites.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NSB Bites. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/restaurants.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Snipcart -->
+    <script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key="YOUR_SNIPCART_PUBLIC_API_KEY"></div>
+</body>
+</html>

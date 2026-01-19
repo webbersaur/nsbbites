@@ -1,0 +1,124 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Garlic",
+      "cuisine": "Seafood",
+      "priceRange": "$$",
+      "address": "556 E 3rd Ave, New Smyrna Beach, FL",
+      "description": "Fresh seafood with a garlic twist. Known for their signature garlic butter crab legs and waterfront dining experience.",
+      "features": ["waterfront", "outdoor-seating", "bar"],
+      "image": "the-garlic.jpg",
+      "website": "https://thegarlicnsb.com",
+      "mapLink": "https://maps.google.com/?q=The+Garlic+New+Smyrna+Beach"
+    },
+    {
+      "id": 2,
+      "name": "JB's Fish Camp",
+      "cuisine": "Seafood",
+      "priceRange": "$$",
+      "address": "859 Pompano Ave, New Smyrna Beach, FL",
+      "description": "Casual waterfront spot serving fresh-off-the-boat seafood with stunning views of the Indian River.",
+      "features": ["waterfront", "outdoor-seating", "family-friendly", "live-music"],
+      "image": "jbs-fish-camp.jpg",
+      "website": "https://jbsfishcamp.com",
+      "mapLink": "https://maps.google.com/?q=JBs+Fish+Camp+New+Smyrna+Beach"
+    },
+    {
+      "id": 3,
+      "name": "Third Wave Cafe",
+      "cuisine": "American",
+      "priceRange": "$$",
+      "address": "204 Flagler Ave, New Smyrna Beach, FL",
+      "description": "Hip cafe on Flagler Avenue offering creative American dishes with locally-sourced ingredients and craft cocktails.",
+      "features": ["outdoor-seating", "brunch", "craft-cocktails"],
+      "image": "third-wave.jpg",
+      "website": "https://thirdwavecafe.com",
+      "mapLink": "https://maps.google.com/?q=Third+Wave+Cafe+New+Smyrna+Beach"
+    },
+    {
+      "id": 4,
+      "name": "Taco Shack",
+      "cuisine": "Mexican",
+      "priceRange": "$",
+      "address": "105 Flagler Ave, New Smyrna Beach, FL",
+      "description": "Beach-style tacos and burritos with fresh ingredients. Perfect for a quick bite after hitting the waves.",
+      "features": ["family-friendly", "quick-service", "outdoor-seating"],
+      "image": "taco-shack.jpg",
+      "website": "#",
+      "mapLink": "https://maps.google.com/?q=Taco+Shack+Flagler+Ave+New+Smyrna+Beach"
+    },
+    {
+      "id": 5,
+      "name": "Norwood's Eatery & Treehouse Bar",
+      "cuisine": "Seafood",
+      "priceRange": "$$$",
+      "address": "400 E 2nd Ave, New Smyrna Beach, FL",
+      "description": "Upscale seafood dining featuring a unique treehouse bar. A local institution since 1979.",
+      "features": ["bar", "fine-dining", "historic"],
+      "image": "norwoods.jpg",
+      "website": "https://norwoodsnsb.com",
+      "mapLink": "https://maps.google.com/?q=Norwoods+New+Smyrna+Beach"
+    },
+    {
+      "id": 6,
+      "name": "SoNapa Grille",
+      "cuisine": "Italian",
+      "priceRange": "$$$",
+      "address": "334 Flagler Ave, New Smyrna Beach, FL",
+      "description": "California-meets-Italy cuisine with an extensive wine list and elegant atmosphere on Flagler Avenue.",
+      "features": ["wine-bar", "outdoor-seating", "date-night"],
+      "image": "sonapa.jpg",
+      "website": "https://sonapagrille.com",
+      "mapLink": "https://maps.google.com/?q=SoNapa+Grille+New+Smyrna+Beach"
+    },
+    {
+      "id": 7,
+      "name": "Breakers Ocean Front",
+      "cuisine": "American",
+      "priceRange": "$$",
+      "address": "4491 S Atlantic Ave, New Smyrna Beach, FL",
+      "description": "Oceanfront restaurant with panoramic beach views. Serving classic American fare from breakfast to dinner.",
+      "features": ["waterfront", "outdoor-seating", "breakfast", "family-friendly"],
+      "image": "breakers.jpg",
+      "website": "https://breakersnsb.com",
+      "mapLink": "https://maps.google.com/?q=Breakers+Ocean+Front+New+Smyrna+Beach"
+    },
+    {
+      "id": 8,
+      "name": "Yellow Dog Eats",
+      "cuisine": "BBQ",
+      "priceRange": "$$",
+      "address": "147 Canal St, New Smyrna Beach, FL",
+      "description": "Quirky BBQ joint serving award-winning pulled pork, craft beers, and live music in a fun, eclectic setting.",
+      "features": ["live-music", "craft-beer", "outdoor-seating", "family-friendly"],
+      "image": "yellow-dog.jpg",
+      "website": "https://yellowdogeats.com",
+      "mapLink": "https://maps.google.com/?q=Yellow+Dog+Eats+New+Smyrna+Beach"
+    },
+    {
+      "id": 9,
+      "name": "The Café at Galleria",
+      "cuisine": "American",
+      "priceRange": "$$",
+      "address": "230 Flagler Ave, New Smyrna Beach, FL",
+      "description": "Cozy cafe offering fresh pastries, artisan sandwiches, and specialty coffee in a charming gallery setting.",
+      "features": ["breakfast", "brunch", "coffee", "wifi"],
+      "image": "cafe-galleria.jpg",
+      "website": "#",
+      "mapLink": "https://maps.google.com/?q=Cafe+Galleria+Flagler+Ave+New+Smyrna+Beach"
+    },
+    {
+      "id": 10,
+      "name": "Spanish River Grill",
+      "cuisine": "Seafood",
+      "priceRange": "$$$",
+      "address": "737 E 3rd Ave, New Smyrna Beach, FL",
+      "description": "Fine dining restaurant specializing in fresh Florida seafood with Caribbean influences and waterfront views.",
+      "features": ["waterfront", "fine-dining", "date-night", "outdoor-seating"],
+      "image": "spanish-river.jpg",
+      "website": "https://spanishrivergrill.com",
+      "mapLink": "https://maps.google.com/?q=Spanish+River+Grill+New+Smyrna+Beach"
+    }
+  ]
+}

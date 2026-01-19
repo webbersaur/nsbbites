@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about NSB Bites - your guide to discovering the best restaurants and local gems in New Smyrna Beach, Florida.">
+    <title>About - NSB Bites | New Smyrna Beach Guide</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Snipcart -->
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo/logo-web.png" alt="NSB Bites" class="logo-img">
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="dining-guide.html">Dining Guide</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html" class="active">About</a>
+                <button class="cart-btn snipcart-checkout">
+                    <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    <span class="cart-count snipcart-items-count">0</span>
+                </button>
+            </nav>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- About Hero -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>About NSB Bites</h1>
+            <p>Your local guide to New Smyrna Beach's best restaurants and hidden gems</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>
+                    NSB Bites was born from a love of New Smyrna Beach and its incredible food scene.
+                    Known as the "Shark Capital of the US," our beautiful coastal town offers so much more
+                    than just stunning beaches and world-class surfing - it's home to an amazing variety of
+                    restaurants, from waterfront seafood spots to cozy cafes on Flagler Avenue.
+                </p>
+                <p>
+                    We created this guide to help locals and visitors alike discover the best places to eat
+                    in NSB. Whether you're looking for a romantic dinner with ocean views, a family-friendly
+                    spot for Sunday brunch, or the perfect taco after a day at the beach, we've got you covered.
+                </p>
+
+                <h2 style="margin-top: var(--spacing-xl);">What We Do</h2>
+                <p>
+                    NSB Bites is your comprehensive resource for dining in New Smyrna Beach. We personally
+                    visit and review local restaurants, highlighting their unique features, cuisine types,
+                    and what makes each spot special. Our goal is to connect hungry visitors and residents
+                    with the perfect dining experience.
+                </p>
+                <p>
+                    We also offer exclusive NSB Bites merchandise so you can rep your favorite beach town
+                    wherever you go. From t-shirts to hoodies, our gear celebrates the unique spirit of
+                    New Smyrna Beach.
+                </p>
+
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <svg viewBox="0 0 24 24"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg>
+                        </div>
+                        <h3>Local Expertise</h3>
+                        <p>We know NSB inside and out, from iconic institutions to newly opened gems.</p>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        </div>
+                        <h3>Curated Listings</h3>
+                        <p>Every restaurant is hand-picked and features detailed information to help you choose.</p>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </div>
+                        <h3>Community Focused</h3>
+                        <p>We support local businesses and celebrate what makes our town special.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background-color: var(--light-gray);">
+        <div class="container" style="text-align: center;">
+            <h2>Ready to Explore?</h2>
+            <p style="color: var(--text-light); max-width: 600px; margin: 0 auto var(--spacing-lg);">
+                Discover the best restaurants in New Smyrna Beach or check out our exclusive merchandise.
+            </p>
+            <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+                <a href="dining-guide.html" class="btn btn-primary">Browse Restaurants</a>
+                <a href="shop.html" class="btn btn-secondary">Shop Merch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container" style="text-align: center;">
+            <h2>Get in Touch</h2>
+            <p style="color: var(--text-light); max-width: 600px; margin: 0 auto var(--spacing-lg);">
+                Have a restaurant recommendation? Want to partner with us? We'd love to hear from you!
+            </p>
+            <a href="mailto:hello@nsbbites.com" class="btn btn-outline">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NSB Bites</h4>
+                    <p>Your guide to the best eats in New Smyrna Beach, Florida - the Shark Capital of the US.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <a href="dining-guide.html">Dining Guide</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About Us</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <a href="dining-guide.html?cuisine=seafood">Seafood</a>
+                    <a href="dining-guide.html?cuisine=american">American</a>
+                    <a href="dining-guide.html?cuisine=mexican">Mexican</a>
+                    <a href="dining-guide.html?cuisine=italian">Italian</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>New Smyrna Beach, FL</p>
+                    <a href="mailto:hello@nsbbites.com">hello@nsbbites.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NSB Bites. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- Snipcart -->
+    <script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key="YOUR_SNIPCART_PUBLIC_API_KEY"></div>
+</body>
+</html>
