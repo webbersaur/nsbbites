@@ -358,30 +358,84 @@ h4 { font-size: 1.25rem; }
     flex-wrap: wrap;
 }
 
-/* ========== Printful Store Iframe ========== */
-.printful-store {
-    background-color: var(--light-gray);
+/* ========== Shop Preview ========== */
+.shop-preview {
+    background: linear-gradient(135deg, var(--ocean-blue) 0%, var(--dark-navy) 100%);
+    color: var(--white);
 }
 
-.store-iframe-container {
-    width: 100%;
+.shop-preview .section-title h2 {
+    color: var(--white);
+}
+
+.shop-preview .section-title p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.shop-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.shop-preview-item {
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: var(--radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform var(--transition-normal), background-color var(--transition-normal);
+}
+
+.shop-preview-item:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.shop-preview-image {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.product-label {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-orange);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.shop-preview-item h4 {
+    color: var(--white);
+    margin: var(--spacing-md) 0 var(--spacing-xs);
+    padding: 0 var(--spacing-md);
+}
+
+.shop-preview-item p {
+    color: var(--primary-orange);
+    font-weight: 600;
+    padding-bottom: var(--spacing-md);
+}
+
+.shop-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.shop-buttons .btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--white);
+}
+
+.shop-buttons .btn-secondary:hover {
     background-color: var(--white);
-}
-
-.store-iframe {
-    width: 100%;
-    height: 800px;
-    border: none;
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .store-iframe {
-        height: 600px;
-    }
+    color: var(--dark-navy);
 }
 
 /* ========== Restaurant Cards ========== */
