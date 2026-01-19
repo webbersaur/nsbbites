@@ -358,6 +358,32 @@ h4 { font-size: 1.25rem; }
     flex-wrap: wrap;
 }
 
+/* ========== Printful Store Iframe ========== */
+.printful-store {
+    background-color: var(--light-gray);
+}
+
+.store-iframe-container {
+    width: 100%;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    background-color: var(--white);
+}
+
+.store-iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .store-iframe {
+        height: 600px;
+    }
+}
+
 /* ========== Restaurant Cards ========== */
 .restaurant-grid {
     display: grid;
