@@ -380,20 +380,24 @@ h4 { font-size: 1.25rem; }
 }
 
 .shop-preview-item {
+    display: block;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: var(--radius-lg);
     overflow: hidden;
     text-align: center;
+    text-decoration: none;
     transition: transform var(--transition-normal), background-color var(--transition-normal);
+    cursor: pointer;
 }
 
 .shop-preview-item:hover {
     transform: translateY(-5px);
     background-color: rgba(255, 255, 255, 0.15);
+    color: inherit;
 }
 
 .shop-preview-image {
-    height: 220px;
+    height: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
