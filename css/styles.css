@@ -446,6 +446,25 @@ h4 { font-size: 1.25rem; }
     color: var(--dark-navy);
 }
 
+/* Shop page variant (light background) */
+.shop-page-item {
+    background-color: var(--white);
+    box-shadow: var(--shadow-md);
+}
+
+.shop-page-item:hover {
+    background-color: var(--white);
+    box-shadow: var(--shadow-lg);
+}
+
+.shop-page-item h4 {
+    color: var(--dark-navy);
+}
+
+.shop-page-item p {
+    color: var(--primary-orange);
+}
+
 /* ========== Restaurant Cards ========== */
 .restaurant-grid {
     display: grid;
